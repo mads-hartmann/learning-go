@@ -11,4 +11,11 @@ go fmt hello.go
 # -l to print files that are incorrectly formatted
 # -w to modify files in-place
 goimports -l -w . 
+
+# Linting
+golint ./...
+
+# Vetting
+go vet hello.go
+go vet ./...
 ```
