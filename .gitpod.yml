@@ -1,0 +1,9 @@
+tasks:
+  - name: Configure workspace
+    init: |
+      go install golang.org/x/tools/cmd/goimports@v0.1.11
+      go install golang.org/x/tools/
+
+vscode:
+  extensions:
+    - golang.go
